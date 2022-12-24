@@ -357,7 +357,7 @@
     background-color: #fffd92;
 }
 
-.buttons {
+.buttons-search {
     border: 2px solid green;
     background-color: #fffd92;
     height: 15%;
@@ -383,22 +383,72 @@
 
 
 .save {
-    border: 2px solid royalblue;
+    border: 1px solid black;
+    height: 100vh;
     display: flex;
 }
 
 .save-I {
     border: 2px solid yellowgreen;
+    background-color: #dafff6;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text-c-save {
-
+    border: 2px solid red;
+    background-color: #dafff6;
+    height: 50%;
+    width: 88%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.txt1-save {
 
+.txt1-save {
+    border: 2px solid blue;
+    width: 100%;
+    text-align: center;
+    color: #006b6c;
+    background-color: #dafff6;
+    height: 50%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ideas-s {
+    background-color: #dafff6;
+    
 }
 .txt2-save {
-    
+    border: 2px solid yellowgreen;
+    font-size: x-large;
+    color:#006b6c;
+    background-color: #dafff6;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+}
+.favoritos-s {
+    background-color: #dafff6;
+}
+.explore {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    height: 10%;
+    background-color: #dafff6;
+}
+.button-explore-save {
+    border: 2px solid #006b6c;
+    border-radius: 25px;
+    width: 15%;
+    background-color: #006b6c;
+    color: #dafff6;
+    font-weight: bold;
 }
 
 
@@ -410,7 +460,148 @@
     border: 2px solid red;
     width: 50%;
 }
+.img-c-save {
+    border: 2px solid greenyellow;
+    margin-top: 15%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hogar {
+    border: 1px solid black;
+    width: 50%;
+    height: 52%;
+    border-radius: 70px;
+    background-image: url(future-home.png);
+    background-position: center;
+    background-size:contain;
+}
 
+.txt-imgs-s {
+    border: 2px solid rgb(245, 105, 245);
+    background-color: transparent;
+    margin-right: 7%;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+.texto-img1 {
+    border: 2px solid purple;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.txt-img1-save {
+    background-color: transparent;
+}
+.galeria {
+    border: 1px solid rgb(2, 113, 33);
+    background-color: transparent;
+}
+.bedroom1 {
+    width: 30%;
+    border-radius: 30px;
+}
+.parlor {
+    width: 30%;
+    border-radius: 30px;
+}
+.parlor2 {
+    width: 30%;
+    border-radius: 30px;
+}
+
+.habitación {
+    border: 2px solid black;
+    background-image: url(habitación.png);
+    background-position: center;
+    background-size:contain;
+    height: 28%;
+    width: 26%;
+    margin-left: 6%;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.txt-img2 {
+    border: 1px solid red;
+    background-color: transparent;
+    padding: 0 5%;
+}
+.txt-img2-save {
+background-color: transparent;
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.decoración {
+    border: 2px solid black;
+    background-image: url(decoración.png);
+    background-position: center;
+    background-size:contain;
+    width: 20%;
+    height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.txt-img3 {
+    border: 1px solid red;
+    background-color: transparent;
+    padding: 0 5%;
+}
+.txt-img3-save {
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.baños {
+    border: 2px solid black;
+
+}
+.img4-save {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 70px;
+}
+.drinks {
+    border: 2px solid black;
+}
+.img5-save {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 70px;
+}
+
+
+
+
+.shop {
+    border: 1px solid;
+    display: flex;
+    height: 100vh;
+
+}
+.shop-izq {
+    border: 2px solid red;
+    width: 50%;
+}
+.imgizq-shop {
+    width: 100%;
+    height: 100%;
+}
+.shop-d {
+    border: 2px solid blue;
+    width: 50%;
+}
+.imgd-shop {
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -418,7 +609,7 @@
 
 
 .bottom {
-    border: 2px solid;
+    border: 1px solid;
     height: 100vh;
 }
 
